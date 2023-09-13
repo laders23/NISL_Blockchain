@@ -1,0 +1,21 @@
+Orderer Port = 7050, 7053, 9443
+
+Org1 Peer0 Port = 7051-7052, 9444
+Org1 Peer1 Port = 8051-8052, 9445
+Org1 Peer2 Port = 9051-9052, 9446
+Org1 Peer3 Port = 10051-10052, 9447
+
+Org2 Peer0 Port = 7053-7054, 9448
+Org2 Peer1 Port = 8053-8054, 9449
+Org2 Peer2 Port = 9053-9054, 9450
+Org2 Peer3 Port = 10053-10054, 9451
+
+Org3 Peer0 Port = 7055-7056, 9452
+Org3 Peer1 Port = 8055-8056, 9453
+Org3 Peer2 Port = 9055-9056, 9454
+Org3 Peer3 Port = 10055-10056, 9455
+
+Org4 Peer0 Port = 7057-7058, 9456
+Org4 Peer1 Port = 8056-8057, 9457
+Org4 Peer2 Port = 9056-9057, 9458
+Org4 Peer3 Port = 10056-10057, 9459
