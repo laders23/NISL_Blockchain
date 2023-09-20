@@ -342,23 +342,19 @@ Channel: &ChannelDefaults
 #
 ################################################################################
 Profiles:
-  Channel1Profile:
-    Consortium: SampleConsortium
-    Application:
-      <<: *ApplicationDefaults
-      Organizations:
-        - *Org1
-        - *Org2
-        - *Org3
-        - *Org4
 
-  Channel2Profile:
-    Consortium: SampleConsortium
-    Application:
-      <<: *ApplicationDefaults
-      Organizations:
-        - *Org1
-        - *Org2
-        - *Org3
-        - *Org4
-
+    TwoOrgsApplicationGenesis:
+        <<: *ChannelDefaults
+        Orderer:
+            <<: *OrdererDefaults
+            Organizations:
+                - *OrdererOrg
+            Capabilities: *OrdererCapabilities
+        Application:
+            <<: *ApplicationDefaults
+            Organizations:
+                - *Org1
+                - *Org2
+                - *Org3
+                - *Org4
+            Capabilities: *ApplicationCapabilities

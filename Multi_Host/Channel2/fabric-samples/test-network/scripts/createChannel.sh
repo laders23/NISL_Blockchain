@@ -100,23 +100,15 @@ cp -r ${PWD}/organizations/peerOrganizations/org4.example.com/peers/* ${PWD}/org
 
 ## Join all the peers to the channel
 infoln "Joining org1 peer to the channel..."
-joinChannel 1 0
-joinChannel 1 1
 joinChannel 1 2
 joinChannel 1 3
 infoln "Joining org2 peer to the channel..."
-joinChannel 2 0
-joinChannel 2 1
 joinChannel 2 2
 joinChannel 2 3
 infoln "Joining org3 peer to the channel..."
-joinChannel 3 0
-joinChannel 3 1
 joinChannel 3 2
 joinChannel 3 3
 infoln "Joining org4 peer to the channel..."
-joinChannel 4 0
-joinChannel 4 1
 joinChannel 4 2
 joinChannel 4 3
 
